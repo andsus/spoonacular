@@ -51,3 +51,7 @@ new commit. The recovery branch retains the original local commits. To replace
 the remote `README.md` and `.gitignore` with the local versions, omit the
 `git restore` command. To publish this local `README.md` while retaining only
 the remote `.gitignore`, restore `.gitignore` without including `README.md`.
+
+
+flutter run -d macos \
+  --dart-define=SPOONACULAR_API_KEY="$SPOONACULAR_API_KEY"
